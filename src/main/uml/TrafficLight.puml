@@ -1,0 +1,9 @@
+@startuml
+
+[*] -> Red
+Red -> Red_Yellow : Cycle
+Red_Yellow --> Green : Cycle
+Green -left-> Yellow : Cycle
+Yellow -up-> Red : Cycle
+
+@enduml
